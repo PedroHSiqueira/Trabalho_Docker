@@ -19,7 +19,7 @@ db.once('open', () => {
 // Rota principal
 app.get('/', (req, res) => {
   res.send({Mensagem: "Olá, Este é o trabalho de Engenharia de Software II, onde foi nos solicitado o uso do Docker para a criação de Containers, No caso Foi Realizado o uso do banco de dados MongoDB",
-    Integrantes: "Pedro Siqueira, Vitor Macedo, Pedro Mendes Lima",
+    Integrantes: "Pedro Siqueira, Vitor Macedo, Pedro Mendes Lima, Marcelo Ricardo Lemes",
     Ferramentas: "Arquivo Docker e Docker-Compose",
     Status_Mongo: "Conectado 🔓",
   }
